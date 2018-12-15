@@ -1,3 +1,4 @@
+
 # Project 7: Neighborhood Map (React)
 
 # Table of Contents
@@ -14,21 +15,21 @@
 
 A single-page web application that displays several locations of interest in a city Bengaluru using markers on the map. The map app is built on the React framework using dependencies like Google Maps and FourSquare API. The app, by default, displays all locations using markers on the city map, and when a filter is applied it displays the filtered set of locations. Users can search from all included landmarks, and when a landmark is selected either by clicking on the marker or on the location in the list, an additional information about a landmark is displayed on the info window.
 
-The project follows the guidelines of [Udacity Project Rubric]https://review.udacity.com/#!/rubrics/1351/view)
+The project follows the guidelines of [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
 ## Installation
 
 -   Either clone the repository locally to your machine or simply download the project as a zip file.
 -   Once downloaded, navigate to the directory of the project and run these two commands:
-    _ npm install
-    _ npm start
-    A new window opens in the browser displaying the app. If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
+    -   npm install
+    -   npm start
+ -  A new window opens in the browser displaying the app. If it doesn't, navigate to [http://localhost:3000/](http://localhost:3000/) in your browser
 
 ## Dependencies
 
 To run the application, the following applications should be installed:
-_ Google Maps API [Google Maps Platform](https://developers.google.com/maps/documentation/)
-_ Foursquare API [](https://foursquare.com/)
+-   [Google Maps API ](https://developers.google.com/maps/documentation/)
+-   [Foursquare API](https://foursquare.com/)
 
 ## Directory Structure
 
@@ -52,8 +53,8 @@ _ Foursquare API [](https://foursquare.com/)
     ├── SquareAPI.js # utility functions to perform necessary operations on the backend Foursquare API
     ├── Header.js # component for the display of the header
     └── body
-	    └── Body.js
-	        ├── Map.js # component for the display of Google map
+        └── Body.js
+            ├── Map.js # component for the display of Google map
             └── Sidebar.js # component for the display of search input field and venue list
                 └── VenuesList.js
 ```
